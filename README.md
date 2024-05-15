@@ -1,3 +1,20 @@
+# Nextjs Application
+
+This is the frontend application for which will fetch teh result from the backend and display on the fronend UI.
+## CICD 
+
+```Github Actions ``` as CICD which will trigger when any push occur in this repository and its yaml located inside the ```.github/workflows/```.
+
+## Coding Standards
+In the CICD, I have:
+```bash
+-> Implemented ESLint and Prettier for the Next.js (TypeScript) application.
+-> Integrated ESLint checks into the CI pipeline for the Nextjs
+component.
+-> If the tests fails then pipeline will fail
+```
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
